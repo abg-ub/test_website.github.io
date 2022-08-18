@@ -3,7 +3,7 @@ button {
 }
 .hero {
   height: 100rem;
-  background-image: url(/Photos/Computer.jpg);
+  background-image: url(Photos/Computer.jpg);
   background-position: center center;
   width: 100%;
   padding-right: 15px;
