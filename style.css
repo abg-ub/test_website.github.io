@@ -1,0 +1,46 @@
+button {
+  margin-left: auto;
+}
+.navbar-toggler {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-toggler:hover {
+  background-color: rgba(0, 0, 0, 0.16);
+  transition: 0.4s ease-in-out;
+}
+
+.hero {
+  height: 100rem;
+  background-image: url(/Photos/Computer.jpg);
+  background-position: center center;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+.nav-link:hover {
+  background-color: rgba(230, 230, 230, 0.5);
+  transition: 0.5s ease-in-out;
+}
+.dropdown-item:hover {
+  background-color: rgba(215, 218, 219, 0.5);
+  transition: 0.5 ease-in-out;
+}
+.dropdown-content {
+  display: none;
+
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: rgba(0, 16, 50);
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 0.3s ease-in-out;
+}
